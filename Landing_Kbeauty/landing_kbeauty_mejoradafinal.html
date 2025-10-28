@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taller de Cosmética Coreana K-Beauty | Domina los 20 pasos ancestrales + Sesión GRATIS + Mentoría de negocio por solo 20€ en Madrid. Valor real: 214€. Plazas limitadas.">
+    <title>✨ Taller K-Beauty: 20 Pasos Ancestrales Coreanos | Madrid, Aranjuez, Málaga | Natalhy Marzán</title>
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Taller K-Beauty: Domina los 20 Pasos Ancestrales Coreanos">
+    <meta property="og:description" content="Aprende la filosofía de la belleza coreana + 20 pasos + Sesión GRATIS + Mentoría de negocio. Inversión: 20€ | Valor: 214€ | Madrid.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #E8D5D0;
+            --secondary-color: #F5EBE8;
+            --accent-color: #C89F94;
+            --text-dark: #2D2D2D;
+            --text-light: #6B6B6B;
+            --white: #FFFFFF;
+            --green-accent: #A8C5A6;
+            --gold: #D4AF37;
+            --rose: #FFB6D9;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, #FFF9F7 0%, #F5EBE8 100%);
+        }
+
+        h1, h2, h3 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+        }
+
+        /* ==================== HERO SECTION ====================*/
+        .hero {
+            background: linear-gradient(rgba(232, 213, 208, 0.95), rgba(245, 235, 232, 0.95));
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '✨';
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            font-size: 4rem;
+            opacity: 0.3;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '🌸';
+            position: absolute;
+            bottom: 15%;
+            right: 10%;
+            font-size: 3rem;
+            opacity: 0.3;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .hero-content {
+            max-width: 900px;
+            z-index: 1;
+        }
+
+        .badge {
+            background: var(--gold);
+            color: var(--white);
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .hero h1 .highlight {
+            color: var(--accent-color);
+            position: relative;
+        }
+
+        .hero h1 .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            height: 12px;
+            background: var(--primary-color);
+            z-index: -1;
+            opacity: 0.7;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        .hero-problem {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin: 2rem auto;
+            max-width: 700px;
+            border-left: 4px solid var(--accent-color);
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: white;
+            padding: 1.2rem 3rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.3);
+            margin-bottom: 1rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(37, 211, 102, 0.4);
+        }
+
+        .urgency-text {
+            color: var(--accent-color);
+            font-size: 1rem;
+            margin-top: 1rem;
+            font-weight: 500;
+        }
+
+        /* ==================== CONTAINER ====================*/
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* ==================== KBEAUTY PHILOSOPHY SECTION ====================*/
+        .kbeauty-philosophy {
+            padding: 5rem 2rem;
+            background: var(--white);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 4rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .philosophy-card {
+            background: linear-gradient(135deg, rgba(232, 213, 208, 0.1) 0%, rgba(245, 235, 232, 0.1) 100%);
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            border: 2px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+
+        .philosophy-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(200, 159, 148, 0.2);
+            border-color: var(--accent-color);
+        }
+
+        .philosophy-number {
+            font-size: 3rem;
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .philosophy-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .philosophy-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        /* ==================== 20 PASOS SECTION ====================*/
+        .twenty-steps {
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--white) 100%);
+        }
+
+        .steps-intro {
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            text-align: center;
+        }
+
+        .steps-intro p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .step-category {
+            background: var(--white);
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .step-category h4 {
+            font-size: 1.3rem;
+            color: var(--accent-color);
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .step-list {
+            list-style: none;
+        }
+
+        .step-list li {
+            padding: 0.8rem 0;
+            color: var(--text-light);
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .step-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--green-accent);
+            font-weight: bold;
+        }
+
+        /* ==================== INGREDIENTS SECTION ====================*/
+        .ingredients {
+            padding: 5rem 2rem;
+            background: var(--white);
+        }
+
+        .ingredients-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .ingredient-card {
+            background: linear-gradient(135deg, #FFF9F7 0%, #F5EBE8 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 2px solid var(--primary-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .ingredient-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .ingredient-emoji {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .ingredient-card h5 {
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            color: var(--accent-color);
+        }
+
+        .ingredient-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* ==================== VALUE PROPOSITION ====================*/
+        .value-proposition {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #FFF9F7 0%, #F5EBE8 100%);
+            text-align: center;
+        }
+
+        .value-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+            margin-top: 2rem;
+        }
+
+        .value-box {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .value-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .value-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .value-label {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .value-amount {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .value-separator {
+            border-top: 2px dashed var(--accent-color);
+            padding-top: 2rem;
+            margin-top: 2rem;
+        }
+
+        .final-price {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--secondary-color);
+        }
+
+        .price-row:last-child {
+            border-bottom: none;
+        }
+
+        .price-label {
+            text-align: left;
+            color: var(--text-light);
+        }
+
+        .price-value {
+            text-align: right;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .price-strikethrough {
+            text-decoration: line-through;
+            color: var(--text-light);
+        }
+
+        .you-pay {
+            font-size: 1.3rem;
+            color: var(--text-dark);
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--accent-color);
+        }
+
+        .you-pay-amount {
+            font-size: 3rem;
+            color: var(--gold);
+            font-weight: bold;
+        }
+
+        .discount-badge {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--white);
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 1.5rem;
+        }
+
+        /* ==================== TESTIMONIALS ====================*/
+        .testimonials {
+            padding: 5rem 2rem;
+            background: var(--white);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        .testimonial-card {
+            background: var(--secondary-color);
+            padding: 2.5rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .stars {
+            color: var(--gold);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-text {
+            color: var(--text-light);
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .author-info h5 {
+            font-size: 1rem;
+            margin-bottom: 0.3rem;
+            color: var(--text-dark);
+        }
+
+        .author-info p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        /* ==================== FAQ ====================*/
+        .faq {
+            padding: 5rem 2rem;
+            background: var(--secondary-color);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 3rem auto 0;
+        }
+
+        .faq-item {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .faq-item:hover {
+            border-left-color: var(--accent-color);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-question {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            color: var(--text-light);
+            margin-top: 1rem;
+            line-height: 1.8;
+        }
+
+        .faq-icon {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+        }
+
+        /* ==================== FINAL CTA ====================*/
+        .final-cta {
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, var(--accent-color) 0%, var(--primary-color) 100%);
+            text-align: center;
+            color: var(--white);
+        }
+
+        .final-cta h2 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .final-cta p {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+        }
+
+        .final-cta .cta-button {
+            background: var(--white);
+            color: var(--accent-color);
+            font-size: 1.3rem;
+            padding: 1.5rem 4rem;
+        }
+
+        .final-cta .cta-button:hover {
+            background: var(--secondary-color);
+        }
+
+        /* ==================== FOOTER ====================*/
+        footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 3rem 2rem 1.5rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-text {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        /* ==================== WHATSAPP BUTTON ====================*/
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+            cursor: pointer;
+            z-index: 1000;
+            animation: pulse 2s infinite;
+            text-decoration: none;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.15);
+        }
+
+        .whatsapp-float svg {
+            width: 35px;
+            height: 35px;
+            fill: white;
+        }
+
+        /* ==================== RESPONSIVE ====================*/
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .final-cta h2 {
+                font-size: 2rem;
+            }
+
+            .final-cta p {
+                font-size: 1.1rem;
+            }
+
+            .value-amount {
+                font-size: 1.5rem;
+            }
+
+            .you-pay-amount {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">🌸 LOS 20 PASOS ANCESTRALES COREANOS</span>
+            
+            <h1>
+                Aprende el Secreto de la
+                <span class="highlight">Belleza Coreana</span>
+                Ancestral
+            </h1>
+            
+            <p class="hero-subtitle">
+                ¿Cómo es posible que las mujeres coreanas tengan piel RADIANTE a los 50 años que parece de 30? No es genética. Es MÉTODO. Aprende los 20 pasos milenarios que transforman tu piel, más sesión GRATIS de limpieza profunda. Si te interesa, programamos mentoría de negocio personalizada en otro momento.
+            </p>
+
+            <div class="hero-problem">
+                💭 "Seguí miles de tutoriales pero mi piel no mejora" <br>
+                🤔 "No sé qué productos realmente funcionan" <br>
+                😕 "¿Es verdad que los coreanos tienen fórmula mágica?"
+            </div>
+
+            <a href="#" class="cta-button" onclick="reservarPlaza()">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 28px; height: 28px;">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Reservar Mi Plaza por 20€
+            </a>
+            
+            <p class="urgency-text">⚡ Plazas limitadas a 10 personas | Aprende + Monetiza</p>
+        </div>
+    </section>
+
+    <!-- ==================== KBEAUTY PHILOSOPHY ==================== -->
+    <section class="kbeauty-philosophy">
+        <div class="container">
+            <h2 class="section-title">¿Qué es el K-Beauty? 4 Pilares Fundamentales</h2>
+            <p class="section-subtitle">
+                La filosofía milenaria detrás de la belleza coreana
+            </p>
+
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <div class="philosophy-number">1️⃣</div>
+                    <h3>Prevención > Corrección</h3>
+                    <p>Las coreanas empiezan a cuidar su piel a los 15 años. No esperan a tener problemas para empezar. Una piel bonita es una piel MANTENIDA, no rescatada.</p>
+                </div>
+
+                <div class="philosophy-card">
+                    <div class="philosophy-number">2️⃣</div>
+                    <h3>Consistencia y Disciplina</h3>
+                    <p>10-20 minutos DIARIOS es lo mínimo. Sí, necesita compromiso. Pero los resultados son REALES después de 2-3 semanas. Tu piel no engaña.</p>
+                </div>
+
+                <div class="philosophy-card">
+                    <div class="philosophy-number">3️⃣</div>
+                    <h3>Capas de Productos Ligeros</h3>
+                    <p>Tónico → Esencia → Sérum → Crema. Cada capa penetra más profundo. Juntas logran lo imposible: piel LUMINOSA, translúcida, perfecta (glass skin).</p>
+                </div>
+
+                <div class="philosophy-card">
+                    <div class="philosophy-number">4️⃣</div>
+                    <h3>Ingredientes Naturales Fermentados</h3>
+                    <p>Los coreanos llevan milenios usando fermentación. Estos ingredientes REGENERAN tu piel a nivel celular más que cualquier químico agresivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 20 PASOS ==================== -->
+    <section class="twenty-steps">
+        <div class="container">
+            <h2 class="section-title">Los 20 Pasos Milenarios</h2>
+            
+            <div class="steps-intro">
+                <p>Esto es lo que dominarás en el taller. No necesitas los 20 desde el inicio. Puedes empezar con 5-7 y escalar. Lo importante es ENTENDER por qué cada paso, en qué orden, y cómo adaptarlos a tu tipo de piel.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-category">
+                    <h4>🧼 LIMPIEZA PROFUNDA (Pasos 1-4)</h4>
+                    <ul class="step-list">
+                        <li>Oil Cleanser - Disuelve maquillaje y sebo</li>
+                        <li>Foam Cleanser - Elimina residuos</li>
+                        <li>Peeling Enzimático - Exfolia suavemente</li>
+                        <li>Mascarilla Sellado - Prepara la piel</li>
+                    </ul>
+                </div>
+
+                <div class="step-category">
+                    <h4>💧 HIDRATACIÓN INTENSA (Pasos 5-9)</h4>
+                    <ul class="step-list">
+                        <li>Tónico - Equilibra pH</li>
+                        <li>Esencia 1ª Capa - Hidratación inicial</li>
+                        <li>Esencia 2ª Capa - Profundiza humedad</li>
+                        <li>Sérum - Activos concentrados</li>
+                        <li>Ampollas - Boost de efectividad</li>
+                    </ul>
+                </div>
+
+                <div class="step-category">
+                    <h4>🍶 NUTRICIÓN (Pasos 10-13)</h4>
+                    <ul class="step-list">
+                        <li>Crema Ligera - Sella hidratación</li>
+                        <li>Crema Contorno Ojos - Zona delicada</li>
+                        <li>Mascarilla Noche - Tratamiento intenso</li>
+                        <li>Bálsamo Labial - Protección extrema</li>
+                    </ul>
+                </div>
+
+                <div class="step-category">
+                    <h4>☀️ PROTECCIÓN (Pasos 14-16)</h4>
+                    <ul class="step-list">
+                        <li>SPF 50+ PA++++ - Diario obligatorio</li>
+                        <li>Barrera Protectora - Defensa</li>
+                        <li>Aceites Esenciales - Nutrición extrema</li>
+                    </ul>
+                </div>
+
+                <div class="step-category">
+                    <h4>✨ ESPECIALES SEMANALES (Pasos 17-20)</h4>
+                    <ul class="step-list">
+                        <li>Sheet Masks - 2-3 veces semana</li>
+                        <li>Peel Profundo - 1 vez semana</li>
+                        <li>Mascarilla Arcilla - Purificación</li>
+                        <li>Ampollas Intensas - Tratamiento premium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== INGREDIENTS ==================== -->
+    <section class="ingredients">
+        <div class="container">
+            <h2 class="section-title">Ingredientes Estrella del K-Beauty</h2>
+            <p class="section-subtitle">
+                Los activos más potentes según la ciencia coreana
+            </p>
+
+            <div class="ingredients-grid">
+                <div class="ingredient-card">
+                    <div class="ingredient-emoji">💧</div>
+                    <h5>Ácido Hialurónico</h5>
+                    <p>Hidratación extrema. Retiene 1000x su peso en agua. Resultado: piel plumosa, sin arrugas de deshidratación.</p>
+                </div>
+
+                <div class="ingredient-card">
+                    <div class="ingredient-emoji">🌿</div>
+                    <h5>Centella Asiática</h5>
+                    <p>Regenera tejido dañado. Cura cicatrices y rojeces. Usada en Corea desde hace milenios.</p>
+                </div>
+
+                <div class="ingredient-card">
+                    <div class="ingredient-emoji">🍚</div>
+                    <h5>Extractos de Fermentos de Arroz</h5>
+                    <p>Moléculas activas que regeneran la piel a nivel celular. Resultados visibles en 2-3 semanas. Fermentación coreana milenaria.</p>
+                </div>
+
+                <div class="ingredient-card">
+                    <div class="ingredient-emoji">🍵</div>
+                    <h5>Niacinamida</h5>
+                    <p>Minimiza poros, controla grasa, regenera barrera cutánea. Apta para todo tipo de piel.</p>
+                </div>
+
+                <div class="ingredient-card">
+                    <div class="ingredient-emoji">🫒</div>
+                    <h5>Aceite de Camelia</h5>
+                    <p>Emoliente natural que no deja grasa. Apto incluso para pieles acneicas. Nutrición pura.</p>
+                </div>
+
+                <div class="ingredient-card">
+                    <div class="ingredient-emoji">🌸</div>
+                    <h5>Extractos Fermentados</h5>
+                    <p>Moléculas más pequeñas = mejor penetración. Más potencia que los ingredientes sin fermentar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== VALUE PROPOSITION ==================== -->
+    <section class="value-proposition">
+        <div class="container">
+            <h2 class="section-title">¿Qué Incluye Tu Inversión de 20€?</h2>
+            
+            <div class="value-boxes">
+                <div class="value-box">
+                    <div class="value-emoji">🎓</div>
+                    <div class="value-label">Taller + Teoría</div>
+                    <div class="value-amount">89€</div>
+                </div>
+
+                <div class="value-box">
+                    <div class="value-emoji">🎁</div>
+                    <div class="value-label">Limpieza Profunda Práctica</div>
+                    <div class="value-amount">80€</div>
+                </div>
+
+                <div class="value-box">
+                    <div class="value-emoji">💼</div>
+                    <div class="value-label">Mentoría (si estás interesada)</div>
+                    <div class="value-amount">45€</div>
+                </div>
+            </div>
+
+            <div class="value-separator"></div>
+
+            <div class="final-price">
+                <div class="price-row">
+                    <span class="price-label">Valor Total:</span>
+                    <span class="price-value price-strikethrough">214€</span>
+                </div>
+
+                <div class="price-row" style="font-weight: bold; font-size: 1.3rem; padding: 1.5rem 0; border-top: 2px solid var(--accent-color); border-bottom: 2px solid var(--accent-color);">
+                    <span class="price-label">Tú Pagas:</span>
+                    <span class="price-value" style="color: var(--gold);">20€</span>
+                </div>
+
+                <div class="price-row">
+                    <span class="price-label">Descuento:</span>
+                    <span class="price-value" style="color: var(--gold);">194€ ahorrados (90%)</span>
+                </div>
+
+                <p style="color: var(--text-light); font-size: 0.95rem; margin-top: 1.5rem; text-align: center;">
+                    ✓ Recuperas tu inversión con 1-2 ventas de productos a precio mayorista
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestras alumnas</h2>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Pensé que era un scam pero NADA. Recibí REALMENTE todo lo prometido: taller completo de los 20 pasos, sesión gratis de limpieza profunda (mi piel salió RADIANTE), y mentoría de negocio real. Todo por 20€. Recuperé la inversión en mi primer venta de productos. Recomendado 100%."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MG</div>
+                        <div class="author-info">
+                            <h5>María García</h5>
+                            <p>Madrid • 34 años</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Natalhy es increíble. Explica REALMENTE cómo funciona cada paso, por qué en ese orden, qué esperar. No es solo "haz esto". Es educación. Mi piel mejoró notablemente en 3 semanas, y ahora estoy vendiendo los productos a mis amigas. Ganancia + piel de ensueño. El taller vale oro."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div class="author-info">
+                            <h5>Sofía Rodríguez</h5>
+                            <p>Madrid • 28 años</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Lo mejor fue la sesión práctica. VER en vivo cómo tu piel cambia después de cada paso es magia. Salí del taller con la piel brillando, y con conocimiento que nunca voy a olvidar. Además, la oportunidad de negocio es real: 2 meses después vendo 150€/mes sin presión. Adictiva."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AL</div>
+                        <div class="author-info">
+                            <h5>Ana López</h5>
+                            <p>Madrid • 45 años</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FAQ ==================== -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Cuánto dura el taller?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        El taller completo (teoría + limpieza profunda práctica) dura 2 horas. Si te interesa la mentoría de negocio personalizada, la programamos para otro día según tu disponibilidad. Es un seguimiento personalizado, no está incluido en las 2 horas del taller.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Necesito tener experiencia previa?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        No. El taller es desde cero para principiantes. También para quienes ya usan K-beauty pero quieren profundizar y aprender a monetizarlo. Todo se explica paso a paso.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Debo llevar algo especial?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Solo tu actitud. Se recomienda venir sin maquillaje (o muy ligero) para la sesión práctica. Trae papel y bolígrafo si quieres tomar notas. Todo lo demás está incluido.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Cómo es la oportunidad de negocio?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Durante el taller conocerás productos premium coreanos. Puedes comprarlos con precios mayorista para reventa a amigas/clientes. Alumnas ganan 100-300€/mes. No es obligatorio, está disponible para quienes quieran.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Qué pasa si no puedo asistir?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Avísanos 24h antes por WhatsApp. Intentaremos reagendarte para otra fecha o reembolsaremos tu dinero. Queremos que disfrutes del taller, no que vengas presionada.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Los productos son naturales?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Sí. Los ingredientes estrella del K-beauty son naturales y fermentados. Ácido hialurónico, baba de caracol, centella asiática, aceite de camelia... Nada agresivo. Apto para pieles sensibles.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FINAL CTA ==================== -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>¿Lista para Transformar Tu Piel?</h2>
+            <p>20€ | Valor real 214€ | Plazas limitadas a 10 personas por taller</p>
+            
+            <a href="#" class="cta-button" onclick="reservarPlaza()">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" style="width: 32px; height: 32px;">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                ¡SÍ, QUIERO RESERVAR POR 20€!
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-content">
+            <h3>Natalhy Marzán</h3>
+            <p>Especialista en Cosmética Coreana K-Beauty</p>
+            <p style="margin-top: 0.5rem;">📍 Madrid • Aranjuez • Málaga</p>
+            
+            <p class="footer-text">
+                © 2025 Natalhy Marzán. Todos los derechos reservados.<br>
+                Domina los 20 Pasos Ancestrales Coreanos
+            </p>
+        </div>
+    </footer>
+
+    <!-- ==================== WHATSAPP BUTTON ==================== -->
+    <a href="#" class="whatsapp-float" onclick="reservarPlaza(); return false;" title="Reserva por WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="white"/>
+        </svg>
+    </a>
+
+    <script>
+        const WHATSAPP_NUMBER = '34635612162';
+        
+        function reservarPlaza() {
+            const mensaje = encodeURIComponent('¡Hola Natalhy! Quiero reservar mi plaza para el Taller de Cosmética Coreana K-Beauty (20 pasos ancestrales) por 20€. Incluye sesión GRATIS + Mentoría de negocio 🌸✨');
+            const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${mensaje}`;
+            window.open(url, '_blank');
+        }
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const answer = this.querySelector('.faq-answer');
+                const icon = this.querySelector('.faq-icon');
+                
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== this) {
+                        otherItem.querySelector('.faq-answer').style.display = 'none';
+                        otherItem.querySelector('.faq-icon').textContent = '+';
+                    }
+                });
+                
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                    icon.textContent = '+';
+                } else {
+                    answer.style.display = 'block';
+                    icon.textContent = '-';
+                }
+            });
+        });
+
+        document.querySelectorAll('.faq-answer').forEach(answer => {
+            answer.style.display = 'none';
+        });
+
+        // Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.philosophy-card, .step-category, .ingredient-card, .value-box, .testimonial-card, .faq-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+
+        // CTA Tracking
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function() {
+                console.log('CTA clicked - Taller K-Beauty');
+            });
+        });
+    </script>
+</body>
+</html>
